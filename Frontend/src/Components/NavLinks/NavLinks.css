@@ -1,0 +1,54 @@
+.list li a {
+    color: white;
+    text-decoration: none;
+}
+.list li{
+    padding: 20px 0px;
+    font-size: 1.5em;
+}
+.list>li:hover{
+        background-color: #444;
+      }
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    width: 6vw;
+    ;
+  }
+  @media screen and (min-width: 767px) {
+    .sidebar{
+      height: 100vh;
+    }
+  }
+  
+  .nav-links {
+    padding-top: 20px; 
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list li {
+    text-align: center;
+  }
+  
+  .exit {
+    text-align: center;
+    font-size: 1.5em;
+
+  }
+  
+  .exit a {
+    color: white;
+    display: block;
+    padding: 20px 0;
+  }
+  
+  .exit a:hover {
+    background-color: #444;
+  }

@@ -1,0 +1,37 @@
+.balance-item {
+    background-color: #2E2E2E;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #2E2E2E;
+    
+  }
+  .balance-item:hover{
+    background-color: #292929;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  
+  .balance-item h6 {
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .amount {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  @media screen and (min-width: 768px) {
+    .balance-item {
+      margin-top:10px ;
+        height: 19vh;
+        width: 15vw;
+      }
+  }
+ 

@@ -1,0 +1,7 @@
+.signup-form,.login-form {
+    width: 540px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

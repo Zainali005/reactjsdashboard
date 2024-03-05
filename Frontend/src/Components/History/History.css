@@ -1,0 +1,37 @@
+.history-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-container {
+    background-color: #2E2E2E;
+    border-radius: 20px;
+    margin: 5px 0px;
+}
+
+.table {
+    background-color: #2E2E2E;
+}
+
+.table th,
+.table td {
+    background-color: #2E2E2E;
+    color: white;
+}
+
+.card-body {
+    background-color: #2E2E2E;
+    color: white;
+}
+
+.card {
+    border: none;
+ 
+}
+
+@media screen and (min-width: 768px) {
+    .history-container {
+        margin-left: 15px;
+        width: 97%;
+    }
+}
